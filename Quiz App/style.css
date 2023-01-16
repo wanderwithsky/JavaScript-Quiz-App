@@ -5,7 +5,6 @@
 }
 body{
   background-color: #8DCBE6;
-  /* background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%); */
   font-family: 'Poppins', sans-serif;
   display: flex;
   align-items: center;
@@ -13,25 +12,6 @@ body{
   height: 100vh;
   overflow: hidden;
   margin: 0;
-}
-.start_btn button{
-  font-size: 25px;
-  font-weight: 500;
-  color: #007bff;
-  padding: 15px 30px;
-  outline: none;
-  border-radius: 5px;
-  background: #fff;
-  cursor: pointer;
-}
-
-.start_btn{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-                0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .quiz-container{
   background-color: #fff;
